@@ -1,11 +1,11 @@
 {% extends "base.html" %}
 
 {% block page_title %}
-    Lista de Cursos
+    Cursos
 {% endblock page_title %}
 
 {% block content %}
-<h1>Lista de Cursos</h1>
+<h1>Cursos</h1>
 
 <table class="table">
         <thead> 
@@ -22,8 +22,8 @@
                     <td>{{curso.title}}</td>
                     <td>{{curso.description}}</td>
                     <td>
-                        <a href="{% url "cursos_update" pk=curso.pk %}" class="btn btn-sm btn-secondary">Editar</a>
-                        <a href="{% url "cursos_delete" pk=curso.pk %}" class="btn btn-sm btn-danger">Excluir</a>
+                        <a href="{% url "cursos_update" pk=curso.pk %}" class="btn btn-secondary">Editar</a>
+                        <a href="{% url "cursos_delete" pk=curso.pk %}" class="btn btn-danger">Excluir</a>
                     </td>
                 </tr>
             {% endfor %}
