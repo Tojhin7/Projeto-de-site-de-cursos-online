@@ -1,8 +1,6 @@
-#Just testing how to make a README
+# Plataforma de Cursos Online (Django)
 
-#  Plataforma de Cursos Online (Django)
-
-##  Sobre o projeto
+## Sobre o projeto
 
 Este projeto consiste em uma aplicação web simples desenvolvida com Django, com foco em praticar conceitos de backend em Python.
 
@@ -10,9 +8,9 @@ A aplicação simula uma plataforma de cursos online, onde o administrador pode 
 
 ---
 
-##  Funcionalidades
- 
-* Sistema de autenticação (registro e login de usuário)
+## Funcionalidades
+
+*  Sistema de autenticação (registro e login de usuário)
 *  Visualização de cursos cadastrados
 *  Edição de cursos (título, descrição e duração)
 *  Cadastro de novos cursos
@@ -34,7 +32,7 @@ A aplicação simula uma plataforma de cursos online, onde o administrador pode 
 
 Instale as bibliotecas necessárias com:
 
-```bash
+```
 pip install -r requirements.txt
 ```
 
@@ -91,6 +89,7 @@ http://127.0.0.1:8000/
 
 ---
 
+<<<<<<< HEAD
 !["Página inicial"](image.png)
 !["login"](image-1.png)
 !["Registro"](image-2.png)
@@ -104,6 +103,8 @@ http://127.0.0.1:8000/
 ![alt text](image-10.png)
 ![alt text](image-12.png)
 
+=======
+>>>>>>> 7b81ad088d661cf3a632ab64ba4ce66c55a05187
 ##  Autor
 
 Desenvolvido por mim, com o propósito educacional de estudar e aplicar algumas relações entre a linguagem python e o framework Django 😄
