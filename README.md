@@ -1,5 +1,3 @@
-#Just testing how to make a README
-
 # Plataforma de Cursos Online (Django)
 
 ## Sobre o projeto
