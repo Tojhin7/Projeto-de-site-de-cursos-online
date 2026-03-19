@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block page_title %}
+    Welcome!
+{% endblock page_title %}
+
+{% block content %}
+    <h2>Bem-vindo ao CursosOnline!</h2>
+    <p>Explore nossos cursos e comece a aprender hoje mesmo!</p>
+    <br>
+    <a href="{% url 'cursos_list' %}" class="btn btn-outline-primary btn-sm">Cursos Disponíveis</a>
+{% endblock %}
