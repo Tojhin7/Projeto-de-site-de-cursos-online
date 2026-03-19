@@ -1,8 +1,8 @@
 #Just testing how to make a README
 
-# 📚 Plataforma de Cursos Online (Django)
+# Plataforma de Cursos Online (Django)
 
-## 📌 Sobre o projeto
+## Sobre o projeto
 
 Este projeto consiste em uma aplicação web simples desenvolvida com Django, com foco em praticar conceitos de backend em Python.
 
@@ -10,19 +10,19 @@ A aplicação simula uma plataforma de cursos online, onde o administrador pode 
 
 ---
 
-## ⚙️ Funcionalidades
+## Funcionalidades
 
-* ✅ Sistema de autenticação (registro e login de usuário)
-* 📖 Visualização de cursos cadastrados
-* ✏️ Edição de cursos (título, descrição e duração)
-* ➕ Cadastro de novos cursos
-* ❌ Exclusão de cursos existentes
+*  Sistema de autenticação (registro e login de usuário)
+*  Visualização de cursos cadastrados
+*  Edição de cursos (título, descrição e duração)
+*  Cadastro de novos cursos
+*  Exclusão de cursos existentes
 
-> ⚠️ Observação: O sistema foi projetado para uso administrativo (não há múltiplos níveis de usuário).
+>  Observação: O sistema foi projetado para uso administrativo (não há múltiplos níveis de usuário).
 
 ---
 
-## 🛠️ Tecnologias utilizadas
+##  Tecnologias utilizadas
 
 * Python
 * Django
@@ -30,54 +30,23 @@ A aplicação simula uma plataforma de cursos online, onde o administrador pode 
 
 ---
 
-## 📦 Instalação e execução
-
-### 1. Clonar o repositório
-
-```bash
-git clone <URL_DO_REPOSITORIO>
-cd <NOME_DO_PROJETO>
-```
-
-### 2. Criar e ativar um ambiente virtual
-
-#### Windows:
-
-```bash
-python -m venv venv
-venv\Scripts\activate
-```
-
-#### Linux/Mac:
-
-```bash
-python3 -m venv venv
-source venv/bin/activate
-```
-
----
-
-## 📚 Dependências
+##  Dependências
 
 Instale as bibliotecas necessárias com:
 
-```bash
+```
 pip install -r requirements.txt
 ```
 
-### 🔽 Bibliotecas utilizadas no projeto:
-
-> (Preencha aqui após rodar `pipreqs` ou `pip freeze`)
+###  Bibliotecas utilizadas no projeto:
 
 ```
-# Exemplo:
-# Django==X.X.X
-# outras-bibliotecas
+# Django==6.0.3
 ```
 
 ---
 
-## 🗄️ Configuração do banco de dados
+##  Configuração do banco de dados
 
 Execute as migrações:
 
@@ -87,7 +56,7 @@ python manage.py migrate
 
 ---
 
-## 👤 Criar superusuário (admin)
+##  Criar superusuário (admin)
 
 Opcional
 
@@ -97,7 +66,7 @@ python manage.py createsuperuser
 
 ---
 
-## ▶️ Rodar o servidor
+##  Rodar o servidor
 Terminal:
 ```bash
 python manage.py runserver
@@ -111,7 +80,7 @@ http://127.0.0.1:8000/
 
 ---
 
-## 📌 Observações
+##  Observações
 
 * Este projeto tem fins educacionais.
 * Pode ser expandido futuramente com:
@@ -122,6 +91,6 @@ http://127.0.0.1:8000/
 
 ---
 
-## ✍️ Autor
+##  Autor
 
 Desenvolvido por mim, com o propósito educacional de estudar e aplicar algumas relações entre a linguagem python e o framework Django 😄
